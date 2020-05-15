@@ -34,6 +34,7 @@ body {
 #logo-wrapper img {
 	max-height: 70%;
 	max-width: 80%;
+	min-width: 180px;
 	vertical-align: middle;
 }
 .header-navbar nav {
@@ -67,4 +68,25 @@ body {
 }
 .header-navbar a:hover {
 	border-bottom: 8px solid #CABBB7;
+}
+footer {
+	background-color: #CABBB7;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+.footer-centered {
+	display: inline-block;
+	width: 100%;
+	margin: 10px auto;
+}
+.footer-centered img {
+	min-width: 120px;
+	width: 10%;
+}
+.footer-centered p {
+	font-family: "Courier Prime", monospace;
+	font-size: 0.8em;
+	margin: 10px 0 0 0;
 }
